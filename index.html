@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="slider.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <title>Bootstrap</title>
+  </head>
+  <body class="">
+    <i class='bx bx-moon text-2xl btn fixed top-10 right-10 md:top-10 md:right-20' id="toggleDark"></i>
+    <!-- Header -->
+    <header class="w-full h-20 border-b-[1px] border-zinc-800 px-[10%] flex items-center justify-between fixed bg-white hidden">
+      <div>
+        <h1 class="font-black text-2xl tracking-widest">BRUTALISM</h1>
+      </div>
+      <div>
+        <ul class="flex gap-3 font-semibold text-medium uppercase tracking-widest">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li class="pl-5 border-l-[1px] border-zinc-800"><a href="#" class="px-2 py-1 border-[1px] border-zinc-800">Download CV</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Section -->
+    <section class="home">
+      <div class="w-full h-screen flex justify-center items-center" id="home">
+        <h1 class="text-center leading-8">“Kuras hartaku maniezzzzz” -<b> Jesslyn Elly</b></h1>
+        <div class="w-30 absolute bottom-10 transition duration-300 ease-in-out hover:scale-110">
+          <a href="#about" class="font-medium uppercase tracking-widest">Touch me</a>
+        </div>
+    </section>
+
+    <section  id="about">
+      <div class="w-full h-screen px-[10%] py-[30%] md:py-[10%]">
+        <div>
+          <h1 class="font-black text-4xl uppercase tracking-widest border-b-[1px] border-zinc-800">About Me</h1>
+          <p class="py-16 w-full md:w-[50%]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, excepturi itaque harum fugiat tenetur non facilis corporis id eos. Veritatis magni eius modi facere consequatur dolorum! Voluptatibus fugit fuga laboriosam?
+          </p>
+          <div class="flex gap-3 text-2xl">
+            <a href="http://" target="_blank" rel="noopener noreferrer"><i class="bx bxl-github"></i></a>
+            <a href="http://" target="_blank" rel="noopener noreferrer"><i class="bx bxl-medium-square"></i></i></a>
+            <a href="http://" target="_blank" rel="noopener noreferrer"><i class="bx bxl-twitter"></i></i></a>
+            <a href="http://" target="_blank" rel="noopener noreferrer"><i class="bx bxl-linkedin-square"></i></i></a>
+          </div>
+        </div>
+        <div class="w-56 py-5 transition duration-300 ease-in-out hover:scale-95">
+          <a href="#projects" class="font-medium uppercase tracking-widest">Bring me to Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="w-full h-screen px-[10%] py-[30%] md:py-[10%]">
+        <div>
+          <h1 class="font-black text-4xl uppercase tracking-widest border-b-[1px] border-zinc-800" id="projects">Projects</h1>
+
+          <div class="w-full py-16 gap-2 flex flex-col md:hidden">
+            <div class="w-full h-72 bg-white rounded-lg">
+              <img src="https://images.unsplash.com/photo-1615184697985-c9bde1b07da7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3QlMjBhcnR8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="w-full h-[17.9rem] object-cover rounded-lg">
+            </div>
+            <div class="grid grid-cols-2 gap-2">
+              <div class="w-36 h-36 bg-white rounded-lg">
+                <img src="https://d16kd6gzalkogb.cloudfront.net/magazine_images/Jackson-Pollock-detail.jpg" class="w-36 h-36 object-cover rounded-lg">
+              </div>
+              <div class="w-36 h-36 bg-white rounded-lg">
+                <img src="https://arthive.net/res/media/img/orig/article/643/7567087@2x.jpg" class="w-36 h-36 object-cover rounded-lg">
+              </div>
+              <div class="w-36 h-36 bg-white rounded-lg">
+                <img src="https://cdn.shopify.com/s/files/1/0849/4704/files/Blog-Facebook-Image_664f6dda-e600-4d11-8b9d-209649bb905c.jpg?v=1505911768" class="w-36 h-36 object-cover rounded-lg">
+              </div>
+              <div class="w-36 h-36 bg-white rounded-lg">
+                <img src="https://d1zdxptf8tk3f9.cloudfront.net/ckeditor_assets/pictures/2509/content_geordanna-cordero-fields-762612-unsplash.jpg" class="w-36 h-36 object-cover rounded-lg">
+              </div>
+            </div>
+            <div class="w-full flex flex-col gap-3 py-3 text-medium tracking-wide">
+              <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex voluptatem suscipit officiis itaque recusandae accusamus? Eius necessitatibus ducimus cum dolore, officia molestias aspernatur debitis dolorem, dolores, delectus repellat rerum ad?</h1>
+              <div class="w-96 transition duration-300 ease-in-out hover:scale-105">
+                <a href="#home" class="font-medium uppercase tracking-widest text-base">BRING ME TO THE TOP</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-full py-16 gap-2 hidden md:flex">
+            <div class="w-72 h-72 md:w-72 md:h-[18.6rem] bg-white rounded-lg">
+              <img src="https://images.unsplash.com/photo-1615184697985-c9bde1b07da7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3QlMjBhcnR8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="w-72 h-[18.6rem] object-cover rounded-lg">
+            </div>
+            <div class="grid grid-cols-2 gap-2">
+              <div class="w-36 h-36 bg-white rounded-lg">
+                <img src="https://d16kd6gzalkogb.cloudfront.net/magazine_images/Jackson-Pollock-detail.jpg" class="w-36 h-36 object-cover rounded-lg">
+              </div>
+              <div class="w-36 h-36 bg-white rounded-lg">
+                <img src="https://arthive.net/res/media/img/orig/article/643/7567087@2x.jpg" class="w-36 h-36 object-cover rounded-lg">
+              </div>
+              <div class="w-36 h-36 bg-white rounded-lg">
+                <img src="https://cdn.shopify.com/s/files/1/0849/4704/files/Blog-Facebook-Image_664f6dda-e600-4d11-8b9d-209649bb905c.jpg?v=1505911768" class="w-36 h-36 object-cover rounded-lg">
+              </div>
+              <div class="w-36 h-36 bg-white rounded-lg">
+                <img src="https://d1zdxptf8tk3f9.cloudfront.net/ckeditor_assets/pictures/2509/content_geordanna-cordero-fields-762612-unsplash.jpg" class="w-36 h-36 object-cover rounded-lg">
+              </div>
+            </div>
+            <div class="w-96 flex flex-col gap-3 px-10 text-xl text-left tracking-wide">
+              <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex voluptatem suscipit officiis itaque recusandae accusamus? Eius necessitatibus ducimus cum dolore, officia molestias aspernatur debitis dolorem, dolores, delectus repellat rerum ad?</h1>
+              <div class="w-96 transition duration-300 ease-in-out hover:scale-105">
+                <a href="#home" class="font-medium uppercase tracking-widest text-base">BRING ME TO THE TOP</a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="scrollreveal.js"></script>
+    <script src="darkmode.js"></script>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+</html>
